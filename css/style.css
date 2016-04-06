@@ -20,7 +20,7 @@ body {
 }
 
 #web-header img {
-    padding-top: 12%;
+    padding-top: 20px;
 }
 
 #menu-header p {
@@ -39,4 +39,71 @@ body {
 
 #menu-header img:hover {
     opacity: 0.4;
+}
+
+#icon-footer img {
+    opacity: 1;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+#icon-footer img:hover {
+    opacity: 0.4;
+}
+
+.titulo, .subtitulo, .parrafo, .diminuto {
+    font-family: 'Open Sans';
+    color:#003366;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 300%;
+}
+
+.subtitulo {
+    font-size: 200%;
+}
+
+.parrafo {
+    font-size: 150%; 
+}
+
+.diminuto {
+    font-size: 100%;
+}
+
+.modal-body {
+    background-image: url('../images/fondo-acddes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arco-iris {
+    height: 15px;
+}
+
+.celeste {
+    background: #4377DD;
+    color: #4377DD;
+}
+
+.naranja {
+    background: #FE8439;
+    color: #FE8439;
+}
+
+.verde {
+    background: #29C57C;
+    color: #29C57C;
+}
+
+.amarillo {
+    background: #DADB25;
+    color: #DADB25;
+}
+
+.rosado {
+    background: #FF59AD;
+    color: #FF59AD;
 }
